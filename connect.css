@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Nunito", sans-serif;
+}
+
+header{
+    font-family: "Titillium Web", sans-serif;
+    font-weight:300;
+}
+nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(56, 51, 195);
+  color: #fff;
+  text-transform: capitalize;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px 0px 20px;
+  gap: 70px;
+}
+
+.LeftContent h1 {
+  color: rgb(22, 83, 214);
+  padding-bottom: 10px;
+  font-size: 50px;
+}
+
+.LeftContent h5 {
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.LeftContent a {
+  color: rgb(22, 83, 214);
+}
+
+.LeftContent i {
+  padding-bottom: 5px;
+}
+
+.LeftContent #likedin,
+#fb,
+#twitter {
+  text-decoration: none;
+}
+
+.RightContent form {
+  background-color: rgba(16, 13, 153, 0.928);
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+}
+
+.RightContent form a {
+  color: white;
+}
+
+.RightContent form input {
+  padding: 8px;
+  font-size: 13px;
+}
+
+.RightContent form p {
+  padding: 20px 0px;
+}
+
+.RightContent #submit {
+  background-color: green;
+  width: 80px;
+  outline: 0;
+  color: white;
+  border-radius: 9px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+footer {
+  background-color: rgba(16, 13, 153, 0.928);
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding: 20px;
+}
